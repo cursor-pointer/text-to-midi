@@ -1,0 +1,25 @@
+{
+  "name": "text-to-morse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fake-midi": "node midi-virtual-out.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "easymidi": "^3.0.1",
+    "express": "^4.18.2",
+    "midi": "^2.0.0",
+    "morse-beep": "^1.1.0",
+    "morse-key-converter": "^1.0.0",
+    "webmidi": "^3.1.4"
+  },
+  "devDependencies": {
+    "midi-test": "^1.2.4"
+  }
+}
